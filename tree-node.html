@@ -1,0 +1,10 @@
+<li id="{{member.name}}"  ng-click="$event.stopPropagation();">
+  <span  id="{{'s'+member.name}}" 
+         ng-class="{parent: member.child.length>0}">
+    <i class="fa fa-plus-square" aria-hidden="true" 
+       ng-show="member.child.length>0">
+      
+    </i>
+    {{member.name}}</span>
+</li>
+

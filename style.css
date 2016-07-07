@@ -1,0 +1,17 @@
+
+.parent 
+{
+  /*border: 1px solid green;*/
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.selected {
+  background-color: lightgray;
+}
